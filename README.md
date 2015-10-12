@@ -2,19 +2,47 @@
 
 #### Part 1: index.html
 
+Visit [http://julianfresco.github.io/udacity.frontenddev.p4/index.html](http://julianfresco.github.io/udacity.frontenddev.p4/index.html)
+
 Optimizations included:
 
-* Minify CSS, JS
-* Compress and resize images
-* Add media attribute to link tags for remote CSS
+* Minify CSS, JavaScript
+* Use inline CSS
 * Add async attribute to script tags for non-DOM-rendering JavaScript
+* Add media attribute to link tags for remote CSS
+* Compress and resize images
 
 
 #### Part 2: pizza.html
 
+Visit [http://julianfresco.github.io/udacity.frontenddev.p4/views/pizza.html](http://julianfresco.github.io/udacity.frontenddev.p4/views/pizza.html)
+
 Optimizations included:
 
 * Optimize memory usage in for loops in main.js
+
+    Lines 453-457:
+    // Reduces overall times CSSOM is queried, calculations are run
+
+    var pizza = document.querySelector(".randomPizzaContainer"),
+    allPizzas = document.querySelectorAll(".randomPizzaContainer");
+    var dx = determineDx(pizza, size);
+    var newwidth = (pizza.offsetWidth + dx) + 'px';
+
+    Line 507:
+    // Reduce number of times this calculation is run
+
+    scroll = (document.body.scrollTop / 1250); // Define here to reduce memory allocation
+
+
 * Reduce overall number of pizza images (200 -> 30)
-* Minify CSS and included as inline styles
-* Minify JavaScript
+
+    Line 534:
+    // We don't need 200 pizzas on the screen! Only keep 30
+
+    for (var i = 0; i < 30; i++) {
+
+
+* Minify CSS, JavaScript
+* Use inline CSS
+* Compress and resize images
