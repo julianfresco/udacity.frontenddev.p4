@@ -22,26 +22,30 @@ Optimizations included:
 * Optimize memory usage in for loops in main.js
 
     Lines 453-457:
+    ```javascript
     // Reduces overall times CSSOM is queried, calculations are run
 
     var pizza = document.querySelector(".randomPizzaContainer"),
     allPizzas = document.querySelectorAll(".randomPizzaContainer");
     var dx = determineDx(pizza, size);
     var newwidth = (pizza.offsetWidth + dx) + 'px';
+    ```
 
     Line 507:
+    ```javascript
     // Reduce number of times this calculation is run
 
     scroll = (document.body.scrollTop / 1250); // Define here to reduce memory allocation
-
+    ```
 
 * Reduce overall number of pizza images (200 -> 30)
 
     Line 534:
+    ```javascript
     // We don't need 200 pizzas on the screen! Only keep 30
 
     for (var i = 0; i < 30; i++) {
-
+    ```
 
 * Minify CSS, JavaScript
 * Use inline CSS
