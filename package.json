@@ -1,0 +1,27 @@
+{
+  "name": "udacity.frontenddev.p4",
+  "version": "1.0.0",
+  "description": "Opimizing a portfolio",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-htmlmin": "^1.2.0",
+    "gulp-inline-css": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.4.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianfresco/udacity.frontenddev.p4.git"
+  },
+  "author": "julianfresco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julianfresco/udacity.frontenddev.p4/issues"
+  },
+  "homepage": "https://github.com/julianfresco/udacity.frontenddev.p4#readme"
+}
