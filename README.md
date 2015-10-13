@@ -2,10 +2,9 @@
 
 #### How to use 
 
-    ```
     npm install
     gulp build
-    ```
+
 
 Distribution files are found in `dist` folder, while source files are found in `src` folder.
 
