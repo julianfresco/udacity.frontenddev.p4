@@ -12,7 +12,7 @@ Distribution files are found in `dist` folder, while source files are found in `
 
 #### Part 1: index.html
 
-Visit [http://julianfresco.github.io/udacity.frontenddev.p4/index.html](http://julianfresco.github.io/udacity.frontenddev.p4/index.html)
+Visit [http://julianfresco.github.io/udacity.frontenddev.p4/dist/index.html](http://julianfresco.github.io/udacity.frontenddev.p4/dist/index.html)
 
 Optimizations included:
 
@@ -25,7 +25,7 @@ Optimizations included:
 
 #### Part 2: pizza.html
 
-Visit [http://julianfresco.github.io/udacity.frontenddev.p4/views/pizza.html](http://julianfresco.github.io/udacity.frontenddev.p4/views/pizza.html)
+Visit [http://julianfresco.github.io/udacity.frontenddev.p4/dist/pizza.html](http://julianfresco.github.io/udacity.frontenddev.p4/dist/pizza.html)
 
 Optimizations included:
 
